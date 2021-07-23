@@ -10,7 +10,7 @@
  
 	delay_init();	    	  
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); 
-	uart_init(9600);	 
+	//uart_init(9600);	 
  	LED_Init();		  	
 	KEY_Init();         
 	EXTIX_Init();		 					
